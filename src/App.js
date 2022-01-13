@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 
 import "./style.css";
 
-import useDarkMode from './hooks/useDarkMode';
+import useDarkMode from '.hooks/useDarkMode';
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
